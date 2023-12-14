@@ -14,7 +14,7 @@ const ProfileHeader = () => {
         alignSelf={"flex-start"}
         mx={"auto"}
       >
-        <Avatar src="/src/public/profilepic.png" name="As a programmer" alt="As a programmer logo">
+        <Avatar src="https://images.pexels.com/photos/19408382/pexels-photo-19408382/free-photo-of-silhouettes-of-small-boys-looking-at-the-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" name="As a programmer" alt="As a programmer logo">
         </Avatar>
       </AvatarGroup>
 

@@ -9,7 +9,7 @@ const AuthPage = () => {
         
         {/* Left side */}
         <Box display={{base:"none", md:"block"}}>
-            <Image src="./src/public/auth.png" h={650} alt="Phone img"/>
+            <Image src="https://social-app-asaprogrammer.vercel.app/auth.png" h={650} alt="Phone img"/>
         </Box>
 
         
@@ -19,8 +19,8 @@ const AuthPage = () => {
           <AuthForm />
           <Box textAlign={"center"}>Get the app</Box>
           <Flex gap={5} justifyContent={"Center"}>
-            <Image src="./src/public/playstore.png" h={"10"} alt="Playstore logo"/>
-            <Image src="./src/public/microsoft.png" h={"10"} alt="microsoft logo"/>
+            <Image src="https://social-app-asaprogrammer.vercel.app/playstore.png" h={"10"} alt="Playstore logo"/>
+            <Image src="https://social-app-asaprogrammer.vercel.app/microsoft.png" h={"10"} alt="microsoft logo"/>
 
           </Flex>
         </VStack>

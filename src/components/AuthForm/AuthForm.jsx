@@ -32,7 +32,7 @@ const AuthForm = () => {
     <>
       <Box border={"1px solid gray"} borderRadius={4} padding={5}>
         <VStack spacing={4}>
-            <Image src="/src/public/logo.png" h={24} cursor={"pointer"} alt="Instagram logo"/>
+            <Image src="https://social-app-asaprogrammer.vercel.app/logo.png" h={24} cursor={"pointer"} alt="Instagram logo"/>
             <Input 
                 placeholder="Email"
                 type="email"
@@ -67,7 +67,7 @@ const AuthForm = () => {
             </Flex>
 
             <Flex alignItems={"center"} justifyContent={"center"} cursor={"pointer"}>
-                <Image src="/src/public/google.png" w={5} alt="Google logo"/>
+                <Image src="https://social-app-asaprogrammer.vercel.app/google.png" w={5} alt="Google logo"/>
                 <Text mx="2" color={"blue.500"}>Log in with google</Text>
             </Flex>
         </VStack>

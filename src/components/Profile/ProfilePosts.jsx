@@ -34,10 +34,10 @@ const ProfilePosts = () => {
 
         {!isLoading && (
           <>
-            <ProfilePost img="/src/public/img8.jpg" />
-            <ProfilePost img="/src/public/img6.jpg"/>
-            <ProfilePost img="/src/public/img7.jpg"/>
-            <ProfilePost img="/src/public/img10.jpg"/>
+            <ProfilePost img="https://images.pexels.com/photos/4301702/pexels-photo-4301702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <ProfilePost img="https://images.pexels.com/photos/1580272/pexels-photo-1580272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+            <ProfilePost img="https://images.pexels.com/photos/1376042/pexels-photo-1376042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+            <ProfilePost img="https://images.pexels.com/photos/951318/pexels-photo-951318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
           </>
         )}
      

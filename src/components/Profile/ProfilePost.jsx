@@ -88,7 +88,7 @@ const ProfilePost = ({img}) => {
                         <Flex alignItems={"center"} justifyContent={"space-between"}>
 
                         <Flex alignItems={"center"} gap={4}>
-                            <Avatar src="/src/public/profilepic.png"
+                            <Avatar src="https://images.pexels.com/photos/19408382/pexels-photo-19408382/free-photo-of-silhouettes-of-small-boys-looking-at-the-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             size={"sm"}
                             name="As a Programmer"
                             />
@@ -110,81 +110,81 @@ const ProfilePost = ({img}) => {
                             <Comment 
                             createdAt="1d ago"
                             username="asaprogrammer_"
-                            profilePic="/src/public/img1.png"
+                            profilePic="https://images.pexels.com/photos/166054/pexels-photo-166054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             text={"Nice pic"}
                             />
 
                             <Comment 
                             createdAt="12h ago"
                             username="abrahmov"
-                            profilePic='/src/public/img2.png'
+                            profilePic='https://images.pexels.com/photos/1191146/pexels-photo-1191146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                             text="It looks pretty"
                             />
 
                             <Comment 
                             createdAt="1min ago"
                             username="kentdodds"
-                            profilePic='/src/public/img4.jpg'
+                            profilePic='https://images.pexels.com/photos/15637873/pexels-photo-15637873/free-photo-of-a-motorcycle-parked-on-the-side-of-the-road.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                             text="Just gorgeous"
                             />  
                              <Comment 
                             createdAt="1d ago"
                             username="asaprogrammer_"
-                            profilePic="/src/public/profilepic.png"
+                            profilePic="https://images.pexels.com/photos/16139161/pexels-photo-16139161/free-photo-of-a-man-in-a-helmet-and-black-shirt-riding-a-motorcycle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             text={"Nice pic"}
                             />
 
                             <Comment 
                             createdAt="12h ago"
                             username="abrahmov"
-                            profilePic='/src/public/img2.png'
+                            profilePic='https://images.pexels.com/photos/15506493/pexels-photo-15506493/free-photo-of-two-motorcycles-parked-next-to-each-other-in-a-dark-alley.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                             text="It looks pretty"
                             />
 
                             <Comment 
                             createdAt="1min ago"
                             username="kentdodds"
-                            profilePic='/src/public/img4.jpg'
+                            profilePic='https://images.pexels.com/photos/2056949/pexels-photo-2056949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                             text="Just gorgeous"
                             />  
                              <Comment 
                             createdAt="1d ago"
                             username="asaprogrammer_"
-                            profilePic="/src/public/profilepic.png"
+                            profilePic="https://images.pexels.com/photos/4767718/pexels-photo-4767718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             text={"Nice pic"}
                             />
 
                             <Comment 
                             createdAt="12h ago"
                             username="abrahmov"
-                            profilePic='/src/public/img2.png'
+                            profilePic='https://images.pexels.com/photos/8343564/pexels-photo-8343564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                             text="It looks pretty"
                             />
 
                             <Comment 
                             createdAt="1min ago"
                             username="kentdodds"
-                            profilePic='/src/public/img4.jpg'
+                            profilePic='https://media.istockphoto.com/id/1397957782/photo/young-woman-on-the-balcony-wearing-summer-clothes-and-a-hat.jpg?s=1024x1024&w=is&k=20&c=49U60F3vOJUpjYVygSLTGsj-iXmKA2fKjhvgHQ71IMI='
                             text="Just gorgeous"
                             />  
                              <Comment 
                             createdAt="1d ago"
                             username="asaprogrammer_"
-                            profilePic="/src/public/profilepic.png"
+                            profilePic="https://media.istockphoto.com/id/531464261/photo/closeup-portrait-of-beautiful-blond-girl.jpg?s=1024x1024&w=is&k=20&c=IYAvJZQ7IMmxhKgwr3CDqgLKPH1ysTaNSrFmB_TGnKk="
                             text={"Nice pic"}
                             />
 
                             <Comment 
                             createdAt="12h ago"
                             username="abrahmov"
-                            profilePic='/src/public/img2.png'
+                            profilePic='https://images.pexels.com/photos/303316/pexels-photo-303316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                             text="It looks pretty"
                             />
 
                             <Comment 
                             createdAt="1min ago"
                             username="kentdodds"
-                            profilePic='/src/public/img4.jpg'
+                            profilePic='https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                             text="Just gorgeous"
                             />  
                         </VStack>
