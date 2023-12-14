@@ -110,7 +110,7 @@ const ProfilePost = ({img}) => {
                             <Comment 
                             createdAt="1d ago"
                             username="asaprogrammer_"
-                            profilePic="/src/public/profilepic.png"
+                            profilePic="/src/public/img1.png"
                             text={"Nice pic"}
                             />
 

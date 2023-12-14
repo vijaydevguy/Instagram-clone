@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -6,11 +5,12 @@ import { ChakraProvider, ThemeProvider, CSSReset  } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
 import {mode} from '@chakra-ui/theme-tools'
 import { BrowserRouter } from 'react-router-dom'
+import { StrictMode } from 'react'
 
 const styles ={
   global:(props) =>({
     body :{
-      bg : mode("gray.100","#000000")(props),
+      bg : mode("gray.100","#000")(props),
       color:mode("gray.800","whiteAlpha.900")(props)
     }
   })
@@ -28,15 +28,14 @@ const theme = extendTheme({ config, styles })
 // console.log(theme)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode theme={theme}>
+  <StrictMode>
     <BrowserRouter>
-      <ChakraProvider >
+      <ChakraProvider theme={theme} >
       <CSSReset />
           <ThemeProvider theme={theme}>
             <App />
           </ThemeProvider>
       </ChakraProvider>
-    </BrowserRouter>
-   
-  </React.StrictMode>,
+    </BrowserRouter>,
+  </StrictMode>
 )

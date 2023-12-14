@@ -8,7 +8,7 @@ import ProfilePage from "./pages/ProfilePage/ProfiePage"
 function App() {
 
   return (
-    <PageLayout>
+    <PageLayout >
       
       <Routes>
 

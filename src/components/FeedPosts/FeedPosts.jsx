@@ -40,16 +40,16 @@ const FeedPosts = () => {
       {!isLoading && (
         <>
           <FeedPost 
-          img="/src/public/img5.jpg" username="burakorkmezz" avatar="/src/public/img5.jpg"
+          img="./src/public/img5.jpg" username="burakorkmezz" avatar="/src/public/img5.jpg"
           />
           <FeedPost 
-          img="/src/public/img6.jpg" username="josh" avatar="/src/public/img6.jpg"
+          img="./src/public/img6.jpg" username="josh" avatar="./src/public/img6.jpg"
           />
           <FeedPost 
-          img="/src/public/img3.jpg" username="janedoe" avatar="/src/public/img3.jpg"
+          img="./src/public/img3.jpg" username="janedoe" avatar="./src/public/img3.jpg"
           />
           <FeedPost 
-          img="/src/public/img4.jpg" username="johndoe" avatar="/src/public/img4.jpg"
+          img="./src/public/img4.jpg" username="johndoe" avatar="./src/public/img4.jpg"
           />
         </>
       )}

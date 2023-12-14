@@ -1,7 +1,11 @@
 import { Flex, Box, Avatar, Text } from "@chakra-ui/react"
+import { useState } from "react"
 
 
 const PostHeader = ({username,avatar}) => {
+
+  const [isFollowed, setIsFollowed] = useState(false)
+
   return (
     <Flex justifyContent={"space-between"} alignItems={"center"} w={"full"} my={2}>
       <Flex alignItems={"center"} gap={2}>
@@ -23,8 +27,13 @@ const PostHeader = ({username,avatar}) => {
                   color:"white"
                 }}
                 transition={".2s ease-in-out"}
+
+                onClick={() => setIsFollowed(!isFollowed)}
                 >
-                  Unfollow
+                      {
+                      isFollowed ?
+                      "Unfollow" : "Follow"
+                      }
                 </Text>
               </Box>
     </Flex>
